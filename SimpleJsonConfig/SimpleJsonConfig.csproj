@@ -4,7 +4,7 @@
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<LangVersion>8.0</LangVersion>
 		<Nullable>enable</Nullable>
-		<PackageId>SimpleJsonConfig</PackageId>
+		<PackageId>SimpleJsonConfig.GM</PackageId>
 		<Version>1.0.0</Version>
 		<Authors>tinwhistler</Authors>
 		<Company>tinwhistler</Company>
@@ -14,10 +14,12 @@
 		<PackageProjectUrl>https://github.com/tinwhistler/SimpleJsonConfig</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/tinwhistler/SimpleJsonConfig</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="9.0.7" />
+	<None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
