@@ -17,6 +17,10 @@
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <None Remove="SimpleJsonConfig.nuspec" />
+	</ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="9.0.7" />
 	<None Include="README.md" Pack="true" PackagePath="" />
