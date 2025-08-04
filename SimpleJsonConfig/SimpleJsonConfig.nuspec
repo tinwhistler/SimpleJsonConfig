@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SimpleJsonConfig</id>
+    <version>1.0.0</version>
+    <authors>tinwhistler</authors>
+    <owners>tinwhistler</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/tinwhistler/SimpleJsonConfig</projectUrl>
+    <description>A dead-simple JSON config reader for .NET with no ceremony, no POCOs, and no DI.</description>
+    <tags>json dotnet csharp configuration minimalist simple poco</tags>
+    <repository type="git" url="https://github.com/tinwhistler/SimpleJsonConfig" />
+  </metadata>
+</package>

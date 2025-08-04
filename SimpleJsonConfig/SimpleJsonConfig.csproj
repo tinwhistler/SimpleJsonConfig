@@ -1,9 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-	<LangVersion>8.0</LangVersion>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>8.0</LangVersion>
+		<PackageId>SimpleJsonConfig</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>tinwhistler</Authors>
+		<Company>tinwhistler</Company>
+		<Description>A dead-simple JSON config reader for .NET with no ceremony, no POCOs, and no DI.</Description>
+		<PackageTags>json;dotnet;csharp;configuration;minimalist;simple;poco</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/tinwhistler/SimpleJsonConfig</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/tinwhistler/SimpleJsonConfig</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="9.0.7" />
