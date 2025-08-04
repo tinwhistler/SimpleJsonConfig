@@ -1,0 +1,11 @@
+{
+  "appName": "TestConsole", 
+  "debugMode": true,  
+  "maxUsers": 25, 
+  "maxMemory": 13421772800, 
+  "cpuLoad": 0.83, 
+  "piValue": 3.14159265358979, 
+  "sessionId": "b56f0a60-901b-4ff8-9094-bc1d265f41a1", 
+  "portNumber": 8080, 
+  "retryCount": 5 
+}
