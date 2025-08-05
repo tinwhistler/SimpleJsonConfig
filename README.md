@@ -16,6 +16,18 @@ You know the drill:
 
 Meanwhile, you just wanted to read a number from a file.
 
+## No Metadata. No Bloat. Just Your Stuff.
+
+Your config file should contain the values you care about.
+Not Logging.Levels.
+Not AllowedHosts.
+Not IConfigurationBuilder wizardry.
+
+Just the settings your app needs to run — nothing more.
+No ceremony, no scaffolding, no blessed JSON shape from on high.
+
+Like an INI file, but without pretending we're still in 1998.
+
 ## What This Does
 
 It loads a JSON file and gives you strongly-typed values.  
