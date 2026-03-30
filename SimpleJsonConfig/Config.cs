@@ -106,5 +106,27 @@ namespace SimpleJsonConfig
 
             return null;
         }
+        public T Get<T>(string key)
+        {
+            var type = Nullable.GetUnderlyingType(typeof(T)) ?? typeof(T);
+
+            object? result = type switch
+            {
+                _ when type == typeof(string) => GetString(key),
+                _ when type == typeof(int) => GetInt(key),
+                _ when type == typeof(bool) => GetBool(key),
+                _ when type == typeof(double) => GetDouble(key),
+                _ when type == typeof(float) => GetFloat(key),
+                _ when type == typeof(decimal) => GetDecimal(key),
+                _ when type == typeof(long) => GetLong(key),
+                _ when type == typeof(short) => GetShort(key),
+                _ when type == typeof(byte) => GetByte(key),
+                _ when type == typeof(Guid) => GetGuid(key),
+                _ when type == typeof(DateTime) => GetDateTime(key),
+                _ => throw new NotSupportedException($"Type {typeof(T).Name} is not supported.")
+            };
+
+            return result is null ? default! : (T)result;
+        }
     }
 }
