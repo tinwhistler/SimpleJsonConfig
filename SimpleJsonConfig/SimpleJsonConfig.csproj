@@ -5,7 +5,7 @@
 		<LangVersion>8.0</LangVersion>
 		<Nullable>enable</Nullable>
 		<PackageId>SimpleJsonConfig.GM</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.1.0</Version>
 		<Authors>tinwhistler</Authors>
 		<Company>tinwhistler</Company>
 		<Description>A dead-simple JSON config reader for .NET with no ceremony, no POCOs, and no DI.</Description>
